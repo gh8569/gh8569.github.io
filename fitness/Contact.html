@@ -37,13 +37,64 @@
             <h4>Email us: <a href="mailto:forwardfitness@club.net" class="contact-email-link"> forwardfitness@club.net</a></h4>
             <h4>Visit us at: 42 W Warren Ave, Detroit, MI 48202</h4><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d188805.6713683464!2d-83.33045648135861!3d42.31930865096953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824d2bc9d42d843%3A0xb688968949df5e4e!2sWayne%20State%20University!5e0!3m2!1sen!2sus!4v1612317155891!5m2!1sen!2sus" width="600" height="450"  allowfullscreen aria-hidden="false" tabindex="0" class="map"></iframe>
           </div>
+
+          <div id="form">
+              <h2>Complete the form below to begin</h2>
+              <form class="form-grid"><!--start form-->
+                <fieldset>
+                  <legend>Customer Information</legend>
+                  <label for="fname">First Name:</label>
+                  <input type="text" name="fname" id="fname" required>
+               
+                  <label for="lname">Last Name:</label>
+                  <input type="text" name="lname" id="lname" required>
+
+                  <label for="email">Email:</label>
+                  <input type="text" name="email" id="email" required>
+                  
+                  <label for="phone">Phone:</label>
+                  <input type="tel" name="phone" id="phone" required>
+                </fieldset>
+
+                <fieldset>
+                  <legend>Additonal Information</legend>
+                  <p> I would like more infromation about </p>
+                  <label><input type="checkbox" name="interest" id="grpfit" value="Group Fitness">Group Fitness</label>
+                  <label><input type="checkbox" name="interest" id="prtrain" value="Personal Training">Personal Training</label>
+                  <label><input type="checkbox" name="interest" id="nutr" value="Nutrition">Nutrition</label>
+                  
+               
+                </fieldset>
+                <fieldset>
+                  <legend>Referal Source</legend>
+                  <label for="reference"> How did you find us?</label>
+                  <select name="reference" id="reference">
+                      <option value="ad">Advertisement</option>
+                      <option value="friend">Friend</option>
+                      <option value="google">Google</option>
+                      <option value="social">Social Media</option>
+                      <option value="other">Other</option>
+                    </select>
+
+                    <label for="questions">Questions?</label>
+                    <textarea id="questions" name="questions" rows="5" cols="35"></textarea>
+                
+                    </fieldset>
+                    <input type="submit" id="sumbit"  value="submit" class="btn">
+
+
+
+
+              </form>
+
+          </div>
         </main>
         <footer>
           <p>© Copyright 2021. All rights reserved</p>
           <p><a href="mailto:forwardfitness@club.net">forwardfitness@club.net</a></p><!--Use the footer area to add webpage footer content-->
         </footer>
       </header>
-    </header>
+      
   </div>
 </body>
 =======
